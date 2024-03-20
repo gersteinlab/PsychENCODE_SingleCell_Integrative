@@ -1,1 +1,2 @@
-
+# Bayesian scQTL analysis
+In addition to providing single-cell Quantitative Trait Loci (scQTLs) based on standard approaches and methods, we also provide a supplementary scQTL callset based on Bayesian analysis. Specifically, we quantify the relationship between genotype dosage and gene expression in a cell-type-specific manner using a Bayesian linear mixed effects model. Our description and implementation follow closely those given by [Hoff](https://link.springer.com/book/10.1007/978-0-387-92407-6). Further details are provided in the manuscript.
