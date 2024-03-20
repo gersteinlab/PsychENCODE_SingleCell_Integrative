@@ -1,0 +1,267 @@
+{
+	"title" : "Hierarchical Human brain cell markers",
+	"cell_types" : [
+		{
+			"name" : "Excitatory neuron",
+			"markers" : [
+				{
+					"genes" : ["SLC17A7+","SATB2+","SV2B+"],
+					"weight" : 1.0
+				}
+			],
+			"subtypes" : {
+				"title" : "Excitatory neuron subtype markers",
+				"cell_types" : [
+					{
+						"name" : "L2/3 IT",
+						"markers" : [
+							{
+								"genes" : ["CA10+","FAM19A1+","LAMA2+","PTPRK+","CUX2+","KCNIP4+","LOC101927745+","CBLN2+","LDB2+","COL5A2+","LOC101928964+","LOC105378334+","CADPS2+"],
+								"weight" : 1.0
+							}
+						]
+					},
+					{
+						"name" : "L5 IT",
+						"markers" : [
+							{
+								"genes" : ["LOC105374971+","CPNE4+","IL1RAPL2+","CADPS2+","RORB+","TOX+","FOXP2+","RXFP1+","LOC105373893+","FSTL4+","EPHA3+","POU6F2+","PTPRK+","LOC401134+","CLSTN2+","HS3ST2+","ARHGAP15+","KCNIP4+","PDZRN4+"],
+								"weight" : 1.0
+							}
+						]
+					},
+					{
+						"name" : "L6 IT",
+						"markers" : [
+							{
+								"genes" : ["LOC105373893+","CBLN2+","LOC284930+","LOC105371832+","SLIT3+","PTPRK+","LOC101928964+"],
+								"weight" : 1.0
+							}
+						]
+					},
+					{
+						"name" : "L4 IT",
+						"markers" : [
+							{
+								"genes" : ["RORB+","RMST+","POU6F2+","CPNE4+","TSHZ2+","OTOGL+","LINCR-0002+","LOC105371832+","FSTL4+","DCC+","IL1RAPL2+","LOC100132891+","LOC105373893+","PTPRD+","SCHLAP1+","FAM19A1+","LOC105374971+","PLCH1+"],
+								"weight" : 1.0
+							}
+						]
+					},
+					{
+						"name" : "L6 CT",
+						"markers" : [
+							{
+								"genes" : ["LOC105371833+","SEMA3E+","LOC105373592+","MEIS2+","ADAMTSL1+","LOC105373893+","HS3ST4+","TRPM3+","FOXP2+","SEMA5A+","EGFEM1P+","TLE4+","COL24A1+","LOC401478+","DLC1+","ASIC2+","PDZRN4+","SV2B+","RALYL+","RYR3+","PEX5L+","LDB2+","ZFPM2+","PDE1A+","CLSTN2+"],
+								"weight" : 1.0
+							}
+						]
+					},
+					{
+						"name" : "L6b",
+						"markers" : [
+							{
+								"genes" : ["HS3ST4+","TLE4+","MARCH1+","ZFHX3+","LOC401134+","PDZRN4+","NFIA+","ARPP21+","DLC1+","SEMA3A+","MDFIC+","KIAA1217+","SLIT3+","ZFPM2+","PCSK5+","LMO3+","RXFP1+","DPYD+","MLIP+","C10orf11+","FUT9+","FOXP2+","MEIS2+","CDH10+","ZBTB7C+","RALYL+","CELF2+","LOC100132891+","PTPRD+","DGKG+"],
+								"weight" : 1.0
+							}
+						]
+					},
+					{
+						"name" : "L5 ET",
+						"markers" : [
+							{
+								"genes" : ["FAM19A1+","LOC101927745+","COL24A1+","COL5A2+","LOC105378657+","VAT1L+","NRP1+","PCSK6+","CBLN2+","PTCHD1-AS+","CLEC2L+","CABP1+","KCNN2+","LMO7+","HOMER1+","ESRRG+","GRM8+","NRGN+","NRG1+","PEX5L+","TOX+","SLC35F3+","KCNIP4+","LOC101928923+"],
+								"weight" : 1.0
+							}
+						]
+
+					},
+					{
+						"name" : "L5/6 NP",
+						"markers" : [
+							{
+								"genes" : ["HTR2C+","TSHZ2+","NPSR1-AS1+","LOC729732+","HS3ST4+","ITGA8+","ASIC2+","SORCS2+","LOC105378334+","LOC101928095+","TLE4+","CHN2+","CDH6+","TLL1+","GRM8+","LOC101928948+","CRYM+","LOC101928114+","COL12A1+","OLFM3+","CPNE4+","LOC645544+","TOX+","SEMA3E+","NXPH2+","SEMA5B+","LOC105369818+","KIAA1456+","GRM3+","DPY19L1+","DIRAS2+","GHR+","MPP7+","NPSR1+","ZNF385D+","ETV1+","LDB2+","FER1L6-AS2+","LOC100506457+","PCP4+","FOXP2+","DOCK4+","LY86-AS1+","ATP2C2+","FGFR1+","CLSTN2+","KCTD8+","CD36+","SPON1+","LOC100130459+","CHRM2+","ADAMTSL1+","GPC5+"],
+								"weight" : 1.0
+							}
+						]
+
+					},
+					{
+						"name" : "L6 IT Car3",
+						"markers" : [
+							{
+								"genes" : ["NTNG2+","THEMIS+","LOC105378486+","MCTP2+","SNTB1+","ITGB8+","LOC105370983+","GSG1L+","NWD2+","CADPS2+","TRPC5+","CA10+","DACH1+","SATB2+","KCNIP4+","ZNF804B+","ERC2+","PDE1A+","ARAP2+","SORBS2+","CUX1+","KCTD16+","CLSTN2+","LOC101928964+","TMEM132D+","UNC5C+","MGAT5+","AK5+","RIT2+","PDZRN4+","TENM4+","GALNT14+","RGS12+","SPOCK1+","PCDH9+","NRG1+","FRAS1+","CPNE4+","CTNNA3+","LOC105371308+"],
+								"weight" : 1.0
+							}
+						]
+
+					}
+
+				]
+			}
+		},
+		{
+			"name" : "Inhibitory neuron",
+			"markers" : [
+				{
+					"genes" : ["GAD1+","GAD2+"],
+					"weight" : 1.0
+				}
+			],
+			"subtypes" : {
+				"title" : "Inhibitory subtype markers",
+				"cell_types" : [
+					{
+						"name" : "Lamp5",
+						"markers" : [
+							{
+								"genes" : ["RELN+","LINC00299+","PRELID2+","CXCL14+","FGF13+","HS3ST5+","SV2C+","MYO16+","TRPC3+","FREM1+","CACNA2D1+","GAD2+","DOCK10+","EGFR+","ADARB2+","FSTL5+","KIT+","PTCHD4+","SLC6A1+","DNER+","NYAP2+","LOC101927870+","CNTNAP4+","SGCZ+","EYA4+","FBXL7+","ALK+","INPP4B+","NRG1+","COL5A2+"],
+								"weight" : 1.0
+							}
+						]
+
+					},
+					{
+						"name" : "Lamp5 Lhx6",
+						"markers" : [
+							{
+								"genes" : ["FGF13+","PDGFD+","EYA4+","NTNG1+","CHST9+","FBXL7+","MYO16+","UNC5D+","GRIA4+","TOX+","SV2C+","LAMP5+","LTBP1+","LINC00403+","LINC00299+","VAV3+","NOS1+","CA1+","CA8+","LOC105371641+","KIT+","SFRP1+","COL4A2+","LINC01314+","TACR1+","GAD2+","CDHR3+","CACNA2D1+","SPHKAP+","ALK+","IGSF11+","RAB3IP+","PTCHD4+","GRIN2A+","SLC6A1+","UNC13C+","ZNF536+","PTPRT+","GRIP1+","NFIB+","EGFEM1P+","SEMA6D+","KIRREL3+","MGAT4C+","PRELID2+","MYRFL+","SGCZ+","SOX2-OT+","NKAIN3+","FSTL5+"],
+								"weight" : 1.0
+							}
+						]
+
+					},
+					{
+						"name" : "Pvalb",
+						"markers" : [
+							{
+								"genes" : ["SLIT2+","PPARGC1A+","ADAMTS17+","NXPH1+","KCNC2+","ERBB4+","BTBD11+","MYO5B+","TMEM132C+","ZNF804A+","PRKG1+","DPP10+"],
+								"weight" : 1.0
+							}
+						]
+					},
+					{
+						"name" : "Chandelier",
+						"markers" : [
+							{
+								"genes" : ["CA8+","NPNT+","FAM19A4+","UNC5B+","ZNF385D-AS2+","LOC101928964+","SLC9A9+","TRPS1+","HPSE2+","DPP10-AS3+","RORA+","ZNF385D+","GULP1+","CNTN5+","PLCXD3+","DPP10+","CALN1+","ALK+","RASSF8+","TMEM132C+","MIR4500HG+","DLGAP2+","CNTNAP3B+","SRGAP1+","LHFPL3+","MYO16+","SDK1+","TMEM132D+","HTR1F+","TENM1+","THSD7A+","TENM4+","ANK1+","ADAMTS17+","SGCD+","ZNF536+","KCNAB1+","EDIL3+","ADCY8+","ZNF804A+","LOC102724790+","FAM19A2+"],
+								"weight" : 1.0
+							}
+						]
+					},
+
+					{
+						"name" : "Pax6",
+						"markers" : [
+							{
+								"genes" : ["CXCL14+","SORCS3+","ADARB2+","SLC35F4+","MAML3+","RELN+","MYO16+","CNR1+","RBMS3+","SGCD+","PBX3+","CHRNA7+","DDR2+","SHISA9+","B3GALT1+","CDH4+","CCK+","ZNF385D+","CCDC85A+","IL1RAPL2+","PLCXD3+","ALK+","YJEFN3+"],
+								"weight" : 1.0
+							}
+						]
+					},
+
+					{
+						"name" : "Sncg",
+						"markers" : [
+							{
+								"genes" : ["CXCL14+","CNR1+","PRELID2+","CNTN5+","FSTL5+","ADARB2+","CNTNAP4+","INPP4B+","CHRNA7+","RGS12+","NR2F2-AS1+","NPAS3+","ADRA1A+","IL1RAPL2+","THSD7B+","CCK+","SORCS1+","CDH4+"],
+								"weight" : 1.0
+							}
+						]
+					},
+					{
+						"name" : "Sst Chodl",
+						"markers" : [
+							{
+								"genes" : ["NPY+","CRHBP+","NOS1+","SST+","TACR1+","TRPC6+","SOX6+","CCDC109B+","ARHGAP24+","IL1RAPL2+","COL24A1+","GULP1+","MPPED2+","NXPH2+","LRP8+","LARGE+","GRIK1+","TMTC1+","RPS6KA2+","FRMD4B+","DGKG+","SOX2-OT+","THSD4+","NELL1+","TAC1+","NNAT+"],
+								"weight" : 1.0
+							}
+						]
+					},
+					{
+						"name" : "Sst",
+						"markers" : [
+							{
+								"genes" : ["GRIK1+","TRHDE+","SST+","NXPH1+","STXBP6+","COL25A1+","SPOCK3+","KIF26B+","SOX6+","KIAA1217+","GRIN3A+","WLS+","LOC105377567+","CDH9+","PLCH1+","GRIK3+","ST6GALNAC5+","XKR4+","SHISA6+"],
+								"weight" : 1.0
+							}
+						]
+					},
+					{
+						"name" : "Vip",
+						"markers" : [
+							{
+								"genes" : ["VIP+","ADARB2+","GALNTL6+","THSD7A+","RGS12+","TAC3+","SCG2+","PLD5+","ZBTB20+","LOC105373642+","PROX1+","ERBB4+","GALNT13+","SHISA8+","DLX6-AS1+","SLC24A3+","SYNPR+","EGFEM1P+","THSD7B+"],
+								"weight" : 1.0
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name" : "Astro",
+			"markers" : [
+				{
+					"genes" : ["ADGRV1+","RNF219-AS1+","SLC1A3+","GFAP+","LOC101927437+","PTGDS+","FBXL7+","LINC00499+","NHSL1+","LRIG1+","CDH20+","CST3+","ATP1A2+","AQP4+","COL5A3+","MT2A+","BMPR1B+","GRAMD3+","DAAM2+","FAM189A2+","PARD3B+","ATP13A4+","FGFR3+","ZFP36L1+","LOC105376244+","APOE+","LOC101928394+","PAMR1+","TNC+","SLC25A18+","ACSS1+","PPAP2B+","HIF3A+","RANBP3L+","GLI3+","MRVI1+","SLC14A1+","SLC7A11+","ID4+","PPP1R3C+","ID3+","PRODH+","NDRG2+","ETNPPL+","STON2+","ITPKB+","PON2+","ANGPTL4+","FOS+","PRDM16+","ACSBG1+","ZFHX4+","ACSS3+","SLCO1C1+","GJA1+","HEPACAM+","EZR+","EYA2+","AGT+","LAMA1+","CDC14A+","F3+","LOC101926964+","LOC101930275+","RFTN2+","PAPLN+","PDK4+","YAP1+","LOC101927199+","S100B+","EFEMP1+","ALDH1L1+","AASS+","SOX9+","APCDD1+","LOC102724289+","LOC105376387+","MAML2+","EYA1+","KANK1+","GLIS3+","LOC105376917+","ARHGEF26+","GPC5+","MMD2+","AMZ2+","MEGF10+","ADGRA3+","MEIS2+","MSI2+","GLUL+","ACACB+","LINC00609+","FOXO1+","RAPGEF3+","NTM+","RFX4+","DTNA+","SPON1+","DOCK1+","ARHGAP31+","SLC1A2+","WDR49+","HES1+","PREX2+","PITPNC1+","CACHD1+","STK33+","NFIA+","LINC00299+","GPM6A+","TSC22D4+","PDLIM5+","NKAIN3+","RGS20+","PTPRZ1+","MACF1+","ZBTB20+","NCKAP5+","ZNRF3+","TRPS1+","TNIK+","C1orf61+","AHCYL2+","FGFR2+","SLC4A4+","LOC105375405+","ABLIM1+","SLC16A9+","NPL+","SORBS1+","CTNNA2+","RFX2+","MERTK+","SPARCL1+","PARD3+","ID2+","TTYH1+","RGMA+","PHF21B+","QKI+","TCF7L2+","LIFR+","ITPR2+","ZHX2+","WWOX+","CAMK2G+","GRAMD1C+","NEBL+","CSGALNACT1+","RYR3+","DCLK2+","JUN+","ADD3+","NPAS3+","ARHGEF26-AS1+","MT3+","ACOT11+","SFXN5+","FNBP1+","PRRX1+","GNA14+","PRKCA+","ARHGEF4+","KCNN3+","OPHN1+","SLC39A11+","PRKG1+","SOX5+","GPM6B+","NEAT1+","ZHX3+","PSD2+","MYO10+","GLUD1+","LRRC16A+","ARHGAP24+","FYN+","CRB1+","LOC101927335+","RORB+","CLU+","LOC105378763+","SCARA3+","TPD52L1+","PHLPP1+","CPE+","SHROOM3+","VCAN+","AHCYL1+","SASH1+","DDIT4+","NCAN+","LINC00673+","DOCK7+","CKB+","JUNB+","ZSWIM6+","PTN+","TJP2+","OGFRL1+","LOC105370983+","BMP2K+","FGD4+","MTSS1L+","PFKFB2+","ANKDD1A+","TPCN1+","RHOBTB3+","HIP1R+","DDAH1+","DPP10+","TRPM3+","CRYAB+","EPHB1+","IQCA1+","HPSE2+","TAB2+","LINC01411+","CABLES1+","H3F3B+"],
+					"weight" : 1.0
+				}
+			]
+		},
+		{
+			"name" : "Oligo",
+			"markers" : [
+				{
+					"genes" : ["ST18+","ENPP2+","C10orf90+","DOCK5+","LOC101927459+","MOG+","BCAS1+","CNDP1+","UGT8+","LOC101929249+","CLDN11+","COL4A5+","CARNS1+","FA2H+","ABCA8+","SHROOM4+","OPALIN+","TMEM63A+","SLCO1A2+","MAG+","MYRF+","LINC00639+","FOLH1+","SEPP1+","PLLP+","TRIM59+","SH3TC2+","ASPA+","RNASE1+","MAL+","CD9+","TMEM235+","KIAA1755+","PPP1R14A+","TMEM98+","CD22+","ERMN+","SEMA3B+","PLP1+","MOBP+","KCNH8+","ITGA2+","RFTN2+","ZCCHC24+","TTYH2+","CERCAM+","CDH19+","PRR5L+","DAAM2+","LOC101927967+","PTGDS+","LPAR1+","SPP1+","S100B+","LOC100507336+","SLC5A11+","FAM107B+","LOC100130370+","ERBB3+","TMEM144+","ANLN+","GPR37+","VRK2+","PMP22+","APOD+","RNF220+","RGCC+","CPM+","PLA2G16+","HEPACAM+","PLD1+","LDB3+","DOCK1+","CLMN+","HEPN1+","MBP+","CNP+","CLIC4+","LINC00320+","LINC00609+","PIP4K2A+","FRMD4B+","CTNNA3+","NCKAP5+","QKI+","CREB5+","LINC01170+","PLEKHH1+","SIK3+","LRP2+","PPP2R2B+","FGFR2+","PCDH9+","ELMO1+","SLC44A1+","PHLPP1+","PDE4B+","SLC24A2+","ATP10B+","GAB1+","SCD+","CDK18+","DOCK10+","PLCL1+","PHLDB1+","NINJ2+","EDIL3+","NDE1+","MYO1E+","IL1RAPL1+","GLDN+","MAP7+","CAPN3+","TCF12+","SEPT7+","TF+","FMNL2+","FRMD5+","CRYAB+","PXK+","PDE8A+","MEGF10+","MAN2A1+","FBXL7+","TMEM165+","FRYL+","DLG1+","DPYD+","TTLL7+","TMTC2+","TRIM2+","KIAA1598+","GPRC5B+","ERBB2IP+","ZBTB20+","GSN+","DNAJC6+","PTPRK+","GATM+","UNC5C+","CA2+","MAP4K4+","ARAP2+","PRUNE2+","TJP1+","HHIP+","HAPLN2+","CDH20+","GPM6B+","SYNJ2+","USP54+","PDE1C+","SLAIN1+","FUT8+","DNM3+","CLDND1+","GRM3+","PCSK6+","LAMP2+","HIPK2+","WIPF1+","ABCA2+","APBB2+","ATP8A1+","ENOSF1+","EFHD1+","AGAP1+","PICALM+","MBNL2+","HIP1+","PREX1+","SH3GL3+","MARCH1+","KIF13A+","LPGAT1+","FAXDC2+","CNTN2+","TSC22D4+","APLP1+","ZEB2+","PIEZO2+","MYO1D+","COBL+","SMA4+","ZFHX4+","PTN+","FAM124A+","ARHGAP21+","SCD5+","PEX5L+","PTBP2+","AMER2+","MAP4K5+","SLCO3A1+","DIP2B+","SH3D19+","ZFYVE16+","LANCL1+","SORT1+","FNBP1+","CHD7+","LOC101927768+","PSEN1+","RYBP+","CBR1+","FTH1+","NEAT1+","ADIPOR2+","QDPR+","TULP4+","KLHL32+","KLHL4+","SUN2+","CDK19+","FAM13C+","KIF6+","SEMA6A+","JAM3+","RHOU+","LOC100128079+","KIF13B+","HS3ST5+","CHN2+","SGK1+","MTUS1+","SEMA4D+","PLXDC2+","LOC100287225+","PALM2+","FOXN2+","TESK2+","NEO1+","MOB3B+","TUBA1A+","KANK1+","ATG4C+","MARCKSL1+","MVB12B+","ACER3+","AATK+","IQGAP1+","CUEDC1+","SLC12A2+","SLC22A15+","CCP110+","SECISBP2L+","COLGALT2+","SLC25A13+","LRRC8D+","SPATA6+","PCDH9-AS2+","RAD51B+","GNG7+","BIN1+","YPEL2+"],
+					"weight" : 1.0
+				}
+			]
+		},
+		{
+			"name" : "OPC",
+			"markers" : [
+				{
+					"genes" : ["PDGFRA+","BCAS1+","OLIG1+","ZCCHC24+","LOC105374875+","OLIG2+","PLLP+","APOD+","C5orf64+","LOC105379054+","SHROOM4+","VCAN+","C10orf90+","RFTN2+","SMOC1+","FERMT1+","ATP10B+","DOCK1+","LOC105377632+","MAML2+","COL9A1+","BCAN+","PTPRZ1+","MEGF11+","KCNH8+","PCDH15+","PLEKHH2+","LHFPL3+","CA10+","TNS3+","STK32A+","SEMA5A+","TNR+","LINC00673+","SOX6+","PTN+","CHD7+","DSCAM+","ARHGAP31+","EPN2+","XYLT1+","ZFHX4+","MYT1+","LRRC4C+","OPHN1+","AGAP1+","SPATA6+","KAT2B+","PRRX1+","SCD5+","LUZP2+","LDLRAD3+","NOVA1+","LOC102725045+","APBB2+","CHST11+","KIF13A+","ATP13A4+","NCKAP5+","DGKG+","NTN1+","KANK1+","SULF2+","CDH20+","BRINP3+","PDZD2+","NTNG1+","QKI+","DPP6+","MMP16+","ZSWIM6+","SLC35F1+","LRRN1+","ZNF462+","NTM+","ZBTB20+","COL11A1+","LOC100506457+","PHLPP1+","NAV1+","NFIA+","C10orf11+","LOC105378311+","C1orf61+","NLGN4Y+","USP24+","LPPR1+","KLHL1+","MMD2+","HIP1+","PDE4B+","RAB31+","TMEM132C+","PEAK1+","HTRA1+","ADAMTS17+","LOC101927293+","ABHD2+","KCNMB2+","ITPR2+","MPPED2+","SEZ6L+","ZFPM2+","PREX2+","HIP1R+","CMYA5+","NKAIN3+","TNK2+","ZEB1+","TMEM163+","UST+","CASK+","LMF1+","SH3D19+","RIN2+","ZHX2+","PID1+","TCF7L2+","GALNT10+","KCNMB2-AS1+","SERINC5+","IPO9-AS1+"],
+					"weight" : 1.0
+				}
+			]
+		},
+		{
+			"name" : "Endo",
+			"markers" : [
+				{
+					"genes" : ["CLDN5+","EPAS1+","FLI1+","ABCG2+","LEF1+","EBF1+","CGNL1+","ID1+","HLA-E+","IFI27+","XAF1+","CLEC3B+","SLCO1A2+","SLCO2B1+","ID3+","ENG+","VIM+","LIMS2+","EMCN+","ZNF366+","NOSTRIN+","IFI44L+","SRGN+","SDPR+","SLC38A5+","IFITM3+","TIE1+","CXorf36+","TGM2+","TNFSF10+","ROBO4+","IFITM1+","CD34+","GIMAP7+","TM4SF18+","SOX18+","ANO2+","PRKCH+","ITIH5+","IGFBP7+","TGFBR2+","ANXA3+","ATP10A+","ADGRL4+","PALMD+","AIF1L+","CLEC14A+","KLF2+","ITM2A+","MFSD2A+","FLT1+","FLVCR2+","SP100+","EMP2+","SMAD6+","UACA+","BTNL9+","MT2A+","ADGRF5+","RAMP2+","IFI44+","ITGA6+","HLA-B+","LMO2+","SLC2A1+","VWF+","HERC2P3+","TMEM204+","SLC19A3+","RNASE1+","C22orf34+","A2M+","ST8SIA6+","ESAM+","CFH+","CLIC4+","PARP14+","MECOM+","COBLL1+","PODXL+","ERG+","PON2+","PAQR5+","SHROOM4+","PARP9+","ARHGAP31+","PECAM1+","KANK3+","NKD1+","SH3BP4+","TRPM6+","INPP5D+","HEG1+","ALPL+","THSD4+","NET1+","RGCC+","PGM5+","HMCN1+","ABCB1+","SLC39A8+","HLA-C+","B2M+","IRAK3+","STOM+","SLC7A5+","APCDD1+","WWTR1+","ELOVL7+","GPCPD1+","TMEM123+","EGFL7+","EPSTI1+","ST6GALNAC3+","PLEKHG1+","HERC2P2+","RCSD1+","CFLAR+","DOCK1+","TANC1+","HERC2P9+","C10orf11+","APOLD1+","SYNE2+","PTPRG+","NXN+","HIF3A+","DUSP1+","MYO10+","SLC7A1+","PTPRB+","CYYR1+","NEAT1+","ESYT2+","ST6GAL1+","IGF1R+","NPIPB4+","TNS1+","CDC14A+","SLC39A10+","TACC1+","UTRN+","GPR85+","HSPA1B+","PROM1+","SGMS1+","ARHGAP29+","ENTPD1+","CA4+","MYO1E+","DOCK9+","PPFIBP1+","GALNT15+","PREX2+","TEK+","FAXDC2+","PTPN14+","MSN+","SLC7A11+","NFKBIA+","LOC101928570+","LHFP+","PRTG+","TMEM2+","TBC1D4+","LDLRAD3+","SPTBN1+","RNF144B+","KIAA1462+","ADIPOR2+","CMAHP+","FN1+","HLA-A+","SERPINB6+","RIN2+","TJP1+","FMNL3+","ELF1+","ITGA1+","EPB41L4A+","ETS1+","RAPGEF2+","FOXO1+","DACH1+","AFAP1L2+","PDLIM5+","MTUS1+","GALNT18+","SLC9A3R2+","FOXP1+","APBB2+","MEF2A+","ZBTB20+","NRP1+","BSG+","HSPA1A+","ETS2+","LAMA3+","RBMS2+","CLIC5+","CD320+","USP54+","BBS9+","RBMS3+","SNED1+","SEC14L1+","ACVR1+","FRYL+","HERPUD1+","CTBP2+","TNS2+","RBM20+","TFRC+","LAMA4+","LINC00472+","USP6NL+","PDXK+","RASSF3+","CCNY+","KANK1+","BMPR2+","TIMP3+","CTNNB1+","PPARD+","DLEU2+","UNC13B+","LOC102467224+","TMSB10+","CCND3+","RUNDC3B+","ANKS1A+","JAM2+","RNR2+","CRIM1+","IFNAR2+","SLC7A5P2+","AGFG1+","GSN+","NRP2+","LEPR+","JUN+","MX1+","SDCBP+","NAMPT+","MYH9+","STK3+","PLA2G4A+","USP53+","SPOCK2+","GNAI2+","LMBR1+","LRRC8C+","ACTN4+","UBC+","AFF1+","IFNGR1+","LOC105370526+","GAB1+","FGD6+","LY6E+","RHOBTB1+","SCARB1+","KLF6+","SLC5A6+","CDYL2+","HLF+","PIK3R3+","SHANK3+","PLCB4+","SLC1A1+","SGPP2+","RASSF8+","ATP6+","EEF1A1+","RAPGEF1+","IQGAP1+","PARD3B+","H3F3B+","BMP6+","IKBKB+","ND4+","PPAP2A+","TDRP+","CYTB+","HIPK3+","ARHGEF10+","RAD51B+"],
+					"weight" : 1.0
+				}
+			]
+		},
+
+		{
+			"name" : "Micro/PVM",
+			"markers" : [
+				{
+					"genes" : [ "DOCK8+","APBB1IP+","TBXAS1+","ZFP36L2+","SLCO2B1+","CSF1R+","C3+","FYB+","LOC101929497+","CX3CR1+","SYK+","SAMSN1+","IKZF1+","PTPRC+","FAM177B+","CD74+","RHBDF2+","PIK3R5+","FLI1+","FGD2+","TMEM156+","RGS10+","P2RY13+","ITGAX+","MS4A7+","CSF3R+","C10orf54+","LINC00996+","CD86+","CYBA+","C1QB+","LINC01268+","TAL1+","LOC105376604+","LOC105372984+","HLA-DRA+","LST1+","LOC105376388+","CLEC7A+","INPP5D+","WDFY4+","TLR2+","ADAM28+","LPAR6+","NCKAP1L+","SP100+","LPAR5+","P2RY12+","BLNK+","TGFBR2+","PLCG2+","LAPTM5+","CSF2RA+","LOC105377594+","ZFP36L1+","OLR1+","RUNX1+","IRF8+","SLC1A3+","LYN+","CD53+","CYBB+","BNC2+","TFEC+","C10orf11+","IL13RA1+","AOAH+","LOC105377918+","LY86+","MILR1+","LOC105378305+","NFATC2+","CYTH4+","PALD1+","ARHGAP24+","RREB1+","IFI16+","RBM47+","ITGAM+","LINC01141+","BIN2+","ALOX5+","A2M+","SLC2A5+","PLXDC2+","MERTK+","LOC105369290+","RCSD1+","MRC1+","ZFHX3+","ADAP2+","ENTPD1+","LPCAT2+","GPR34+","CPED1+","ST6GAL1+","LTC4S+","LOC105370359+","SFMBT2+","PIK3AP1+","ARRDC5+","TMIGD3+","LOC105377684+","AXL+","DOCK2+","ITPR2+","DOCK4+","MAML2+","GGTA1P+","MEF2A+","ABCC4+","ARHGAP15+","ELMO1+","ATP8B4+","AKAP13+","IPCEF1+","FOXN3+","CYFIP1+","HCK+","FRMD4A+","ARHGAP22+","SORL1+","PREX1+","HS3ST4+","TNS3+","SRGAP2+","S100Z+","SLC9A9+","IRAK3+","MAML3+","LOC101930023+","EPB41L2+","ST6GALNAC3+","QKI+","LDLRAD4+","MYO1F+","PARP14+","FMNL3+","SYNDIG1+","ARHGAP25+","ANKRD44+","RASGEF1C+","DIAPH2+","LRRK1+","LHFPL2+","CIITA+","MEF2C+","SPP1+","CARD11+","MED13L+","CHST11+","MYOF+","MBNL1+","VAV1+","MAP4K4+","SRGAP2B+","KCNQ3+","IGSF10+","APOE+","TGFBR1+","PGM5+","BMP2K+","TBC1D22A+","ZNF710+","HAVCR2+","NRROS+","PLA2G4A+","C12orf75+","FOXP2+","FCHSD2+","ATM+","ZSWIM6+","PICALM+","FAM105A+","CSGALNACT1+","RNASET2+","LPAR1+","WIPF1+","RIN3+","DLEU7-AS1+","IL18+","LOC101929294+","B3GNT5+","USP53+","SNX29+","RYR1+","TCF12+","HSPA1B+","ZFPM2-AS1+","LOC401134+","ELF1+","IL6ST+","TGFB1+","LOC105376819+","NEAT1+","MGAT4A+","MRC2+","CAPZB+","ADGRG1+","DOCK10+","ETV6+","SOCS6+","WASF2+","HTRA1+","NCKAP5+","PTPRJ+","BHLHE41+","NPL+","DIP2B+","IFNGR1+","DLEU2+","MIS18BP1+","CHD7+","KCNK13+","RAD51B+","MAP3K5+","AFF1+","CTBP2+","SRGAP2C+","KIAA0226L+","FGD4+","SMAP2+","ITM2B+","ABR+","ITGB5+","SIPA1L2+","CECR2+","FKBP5+","B2M+","RAB31+","SPRED1+","IL17RA+","DENND3+","MCF2L+","USP6NL+","GAB2+","SRGAP2-AS1+","MTHFD1L+","DISP1+","HSPA1A+","RAPGEF1+","SPI1+","SAT1+","MARCH3+","SLC4A7+","PLD1+","SKAP2+","MIR31HG+","LOC105372874+","RUNX2+","ARHGAP12+","AP1B1+","SH3KBP1+","GNG7+","PRDM11+","MKNK1+","SUSD6+","LRCH1+","CFLAR+","PAG1+","TBC1D12+","GSN+","LOC105377632+","NLRP1+","APPL2+","TAB2+","SRGAP1+","NRIP1+","KBTBD12+","UBE2E1+","ARHGEF6+","SERPINB9+","SH2B3+","RAP1A+","SETX+","KCNQ1+","ZNRF2+","ARHGAP6+","ENTPD1-AS1+","IGSF21+","MANBA+","LRRC8C+","RNF213+","BCAR3+","RASSF8+"],
+					"weight" : 1.0
+				}
+			]
+		},
+		{
+			"name" : "T cells",
+			"markers" : [
+				{
+					"genes" : ["ST18+","PTPRC+"],
+					"weight" : 1.0
+				}
+			]
+		},
+		{
+			"name" : "VLMC",
+			"markers" : [
+				{
+					"genes" : ["COLEC12+","EBF1+","IGFBP7+","ITIH5+","SLC6A12+","MIR143HG+","SLC12A7+","NOTCH3+","TXNIP+","RERGL+","GGT5+","TBX2+","TFPI+","LEF1+","BGN+","IFITM1+","COL1A2+","IFITM3+","MYL9+","GPER1+","COL6A2+","FHL5+","GNG11+","LOC105377443+","ATP1A2+","CD9+","EPAS1+","TINAGL1+","VIM+","PTH1R+","CFH+","PDGFRB+","SLC1A3+","PRELP+","SLC6A13+","UACA+","TGFBR2+","SNTB1+","SLC19A1+","ADIRF+","SLC38A11+","GJC1+","HIGD1B+","AXL+","DAAM2+","NDUFA4L2+","TNS1+","COBLL1+","LOC102467224+","RHOJ+","EPS8+","SPARC+","DCN+","WDFY4+","CPM+","MFGE8+","SMOC2+","PTN+","ABCA8+","PALD1+","MYO1B+","RBPMS+","ARHGAP29+","ISYNA1+","TRPC3+","FAM65C+","LAMA2+","PTPRK+","LHFP+","DLC1+","KANK3+","ARHGAP42+","ACSS3+","CALD1+","UTRN+","HTR1F+","PTGDS+","MAML2+","RGS5+","SLC6A1+","SLC20A2+","GPC5+","NR2F2-AS1+","SLC30A10+","RNF152+","TNS2+","RBMS3+","KANK2+","PDE7B+","PRKG1+","RCSD1+","MYOF+","B2M+","SEMA5A+","A2M+","MCAM+","YAP1+","NID1+","FN1+","PLXDC1+","MRC2+","CA4+","HES4+","ETS1+","PARD3+","CDH6+","ARHGAP10+","PDE8B+","GRM3+","NR2F2+","TJP1+","ADGRF5+","CLMN+","CASC15+","PLCB4+","ARHGAP6+","P2RY14+","ZBTB20+","RORA+","PTEN+","PDZD2+","GRM8+","COL4A3+","LAMA4+","LPP+","TACC1+","PLCE1+","HSPB1+","DACH1+","DOCK1+","ABCC9+","ZFHX3+","PDE8A+","KIAA1109+","APBB2+","GRAMD3+","COL4A4+","ZEB1+","MGLL+","RNR2+","TIMP3+","KIRREL+","FOXP1+","TESC+","CACHD1+","ITGA1+","FRZB+","ZAK+","ADAMTS9-AS2+","LOC101927998+","SH3RF1+","FRMD3+","AGRN+","PRRX1+","LAMC3+","PHLDB2+","CYTH3+","LZTS1+","NEAT1+","GRK5+","NBEAL1+","SLC6A1-AS1+","LGALS1+","PARD3B+","MPPED2+","AKAP13+","SLC12A2+","PDE3A+","SNRK+","ECE1+","SYNE2+","C2CD2+","PAG1+","EFHD1+","ATP6+","GSN+","DENND2A+","CECR2+","NFIA+","CYTB+","PREX2+","CPE+","DLEU2+","COX3+","PAPSS2+","ACTB+","UST+","HLA-C+","ANO3+","LOC644135+","CA2+","FLNA+","KIF13A+","BCL2+","SASH1+","COX2+","PIK3CD+","HIP1+","PLCL1+","ST5+","RHOB+","ACTN4+","FRMD6+","BSG+","ND3+","PITPNM2+","RNR1+","ACTG1+","COL6A1+","EEF1DP3+","CCDC3+","ND1+","ND4+","ND2+","LOC102724947+","CPQ+","ACTA2+","H3F3B+"],
+					"weight" : 1.0
+				}
+			]
+		}
+	]
+}

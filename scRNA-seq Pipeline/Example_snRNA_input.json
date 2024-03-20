@@ -1,0 +1,46 @@
+{
+  "currdir":"Sample_folder",
+  "sampledetails":[
+    {
+      "fastqfolder":"/path/to/fastqs",
+      "sampletag":"Sam1",
+      "samplefoldername":"Sam1_counts",
+      "chemistry":"v2",
+      "batchnum":1,
+      "hashing":"False"
+    },
+    {
+      "fastqfolder":"/path/to/fastqs",
+      "sampletag":"Sam2",
+      "samplefoldername":"Sam2_counts",
+      "chemistry":"v2",
+      "batchnum":2,
+      "hashing":"False"
+    },
+    {
+      "fastqfolder":"/path/to/fastqs",
+      "sampletag":"Sam3",
+      "samplefoldername":"Sam3_counts",
+      "chemistry":"v3",
+      "batchnum":3,
+      "hashing":"False"
+    },
+    {
+      "fastqfolder":"/path/to/fastqs",
+      "sampletag":"Sam4",
+      "samplefoldername":"Sam4_counts",
+      "chemistry":"v3",
+      "batchnum":4,
+      "hashing":"False"
+    }
+  ],
+  "transcriptome":"/path/to/refdata-gex-GRCh38-2020-A_premrna",
+  "mito_file":"mito_genes.csv",
+  "numproc":12,
+  "n_jobs_pg":10,
+  "runcellbender":"True",
+  "cb_partition": "slurm_gpu_partition",
+  "cb_gpus":1,
+  "cb_cpus":1,
+  "cb_nodes":1
+}
