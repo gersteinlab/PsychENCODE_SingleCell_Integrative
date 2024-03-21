@@ -4,7 +4,7 @@ This repository contains the code generated as part of the PsychENCODE consortiu
 ## Overview
 Single-cell genomics is a powerful tool for studying heterogeneous tissues such as the brain. Yet, little is understood about how genetic variants influence cell-level gene expression. Addressing this, we uniformly processed single-nuclei, multi-omics datasets into a resource comprising >2.8M nuclei from the prefrontal cortex across 388 individuals. For 28 cell types, we assessed population-level variation in expression and chromatin across gene families and drug targets. We identified >550K cell-type-specific regulatory elements and >1.4M single-cell expression-quantitative-trait loci, which we used to build cell-type regulatory and cell-to-cell communication networks. These networks manifest cellular changes in aging and neuropsychiatric disorders. We further constructed an integrative model accurately imputing single-cell expression and simulating perturbations; the model prioritized ~250 disease-risk genes and drug targets with associated cell types.
 
-For a comprehensive understanding, the official publication provides detailed insights into our methodologies, results, and discussions. We recommend reading the paper alongside exploring this repository.
+For a comprehensive understanding, the publication provides detailed insights into our methodologies, results, and discussions. We recommend reading the paper alongside exploring this repository.
 
 ## Publication
 
