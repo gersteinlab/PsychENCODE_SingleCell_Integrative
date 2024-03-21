@@ -47,7 +47,7 @@ run A_train_unariesZscore.m
 - Change the corresponding variables (i.e. 'datDir', 'tag') to train for SCZ, ASD, or BIP.
 
 #### GMRF Training
-[To be completed by JW]
+
 
 #### DNN Training
 Optimized DNN via architectures and hyperparameters for best prediction power.
@@ -77,6 +77,6 @@ python model_testing_10fold_updated_all_preds_weights_*.py
 
 All steps are the same as in [Schizophrenia, Bipolar disorder, and ASD](#schizophrenia-bipolar-disorder-and-asd), except using different source code:
 - `A_train_unariesZscore_ros.m`
-- [GMRF - JW]
+
 - `wgcna_modules_ros.R`
 - `model_testing_10fold_updated_all_preds_weights_ros.py`
