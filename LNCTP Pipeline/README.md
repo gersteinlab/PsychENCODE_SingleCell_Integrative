@@ -3,9 +3,9 @@
 This folder contains the code and partial data for the LNCTP model.
 
 
-## Subfolder Structure
+## Subfolder Structure for each phenotype
 
-- `*code_*/`: Contains all scripts, data and saved models LNCTP training, testing, and analysis for different types of phenotypes.
+- `*.py`:  Scripts
 - `data/`: Processed datasets for the model.
 - `models_saved/`: Optimal models selected for predicting disorders.
 - `models/`: All trained models during the optimization process.
