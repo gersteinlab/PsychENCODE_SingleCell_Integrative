@@ -1,28 +1,9 @@
-# Cornerstone
+# Linear Network of Cell-Type Phenotypes (LNCTP) 
 
-Welcome, this repository contains the code and partial data for the LNCTP model used in our paper titled "Single-Cell Genomics Integration for Brain Studies", [under review] for publication in Science Journal.
+This folder contains the code and partial data for the LNCTP model.
 
-## Overview
-Single-cell genomics is a powerful tool, especially for heterogeneous tissues such as the brain. Yet, little is understood about how cell-level gene expression is influenced by individual genetic variants. Here, we integrate single-nucleus, multi-omics datasets from the PsychENCODE consortium to create a uniformly processed resource, comprising >2.8M nuclei from the prefrontal cortex across 388 individuals. The resource enables assessment of population-level variation in expression and chromatin for 28 cell types across gene families (e.g., for neurotransmitters and drug targets). It identifies >550K cell-type-specific regulatory elements and >1.4M single-cell eQTLs, which we use, in turn, to build cell-type regulatory networks and cell-to-cell communications networks. These networks provide a comprehensive picture of expression changes in aging and neuropsychiatric disorders. Finally, they enable the construction of an integrative model that accurately imputes cell-type gene expression. The model also prioritizes potential disease-risk genes and drug targets, with their associated cell types.
 
-For a comprehensive understanding, the official publication provides detailed insights into our methodologies, results, and discussions. We recommend reading the paper alongside exploring this repository.
-
-## Publication
-
-- **Title**: Single-cell genomics & regulatory networks for 388 human brains
-- **Authors**: [Name], [Co-Author`s Names], et al.
-- **Journal**: Science Journal [?]
-- **Link**: [Read the full paper here](PLACEHOLDER_FOR_PAPER_LINK)
-
-## Key Highlights
-
-- **Extensive Dataset**: More than 2.8 million nuclei from the prefrontal cortex across 388 individuals.
-- **Cell-Type Specific Regulatory Elements**: Identification of over 550K unique regulatory elements.
-- **Single-Cell eQTLs Exploration**: Unearthed more than 1.4 million eQTLs offering insights into cell-type regulatory networks and inter-cellular communication.
-- **Aging and Neuropsychiatric Disorders**: Comprehensive network models highlighting expression changes associated with aging and various neuropsychiatric disorders.
-- **Integrative Model Construction**: A model that accurately imputes cell-type gene expression, prioritizing potential disease-risk genes and drug targets, associating them with specific cell types.
-
-## Repository Structure
+## Subfolder Structure
 
 - `*code_*/`: Contains all scripts, data and saved models LNCTP training, testing, and analysis for different types of phenotypes.
 - `data/`: Processed datasets for the model.
